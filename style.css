@@ -1,14 +1,23 @@
-.cabeçalho
+*{
+   margin: 24;
+   padding: 35;
+}
+
+.cabecalho
 {background-color: white
 ; color: black;
 display: flex;
  justify-content: space-around; 
- ;}
+ align-items: center;
+ padding: 35px 0;
+}
 
-.cabeçalho-imagem{
-    width: 15%;
+.cabecalho-imagem{
+    width: 35%;
  }
 
- .cabeçalho-lista-item{
+ .cabecalho-lista-item{
     display: inline-block;
+    margin: 0 30px;
+    font-size: 30px;
  }
